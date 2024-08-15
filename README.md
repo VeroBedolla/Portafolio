@@ -15,6 +15,4 @@ Este es mi portafolio donde presento una colección de proyectos que reflejan mi
 - Bootstrap
 - JavaScript
 
-## Contacto
 
-Puedes contactarme a través de mi [LinkedIn www.linkedin.com/in/veronica-bedolla-developer](www.linkedin.com/in/veronica-bedolla-developer) para más información.
