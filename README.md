@@ -5,9 +5,7 @@ Este es mi portafolio donde presento una colección de proyectos que reflejan mi
 ## Estructura del Proyecto
 
 - **css/**: Contiene las hojas de estilo para el proyecto.
-- **html/**: Contiene los archivos HTML que estructuran la página web.
-- **fotos/**: Contiene imágenes utilizadas en el portafolio.
-- **indice.css**: Hoja de estilos principal.
+- **html/**: Contiene los archivos HTML que estructuran la página web
 - **indice.html**: Página principal del portafolio.
 
 ## Tecnologías Utilizadas
@@ -19,4 +17,4 @@ Este es mi portafolio donde presento una colección de proyectos que reflejan mi
 
 ## Contacto
 
-Puedes contactarme a través de mi [LinkedIn](https://www.linkedin.com/in/tu-perfil) para más información.
+Puedes contactarme a través de mi [LinkedIn](www.linkedin.com/in/veronica-bedolla-developer) para más información.
