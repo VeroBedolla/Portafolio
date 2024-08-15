@@ -1,0 +1,187 @@
+
+/*encabezado*/
+.seccion-1 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seccion-1-encabezado{
+    font-size: 308%;
+    font-weight: 700;
+    color: rgb(17, 15, 17);
+    background-color: #FB9EBB;
+    padding: 0 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5rem;
+    transform: skew(-12deg);
+}
+.seccion-1 img{
+    width: 45rem;
+    height: 54rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0.8rem;
+    padding: 0.7rem;
+    background-color: #FB9EBB;
+    opacity: 0.9;
+    box-shadow: 3rem 3rem 2rem;
+}
+.nombre-persona{
+    font-size: 350%;
+    color: white;
+    background-color: #FB9EBB;
+    margin: 5rem 0;
+    padding: 0.5rem 3rem;
+    letter-spacing: 0.3rem;
+    transform: skew(-12deg);
+}
+/*--------- Animaciones burbujas--------*/
+.burbujas div{
+    width: 10px;
+    height: 15px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    border-radius: 100%;
+   position:absolute;
+    bottom: 0;
+    animation: animarburbujas 8s linear infinite;
+}
+.burbujas div:nth-child(1){
+    width: 25px;
+    height: 15px;
+    left: 7%;
+    animation-duration: 15s;
+}
+.burbujas div:nth-child(2){
+    width: 20px;
+    height: 25px;
+    left: 17%;
+    animation-duration: 20s;
+}
+.burbujas div:nth-child(3){
+    width: 25px;
+    height: 10px;
+    left: 27%;
+    animation-duration: 30s;
+}
+.burbujas div:nth-child(4){
+    width: 40px;
+    height: 45px;
+    left: 37%;
+    animation-duration: 9s;
+}
+.burbujas div:nth-child(5){
+    width: 50px;
+    height: 55px;
+    left: 47%;
+    animation-duration: 20s;
+}
+.burbujas div:nth-child(6){
+    width: 10px;
+    height: 5px;
+    left: 57%;
+    animation-duration: 10s;
+}
+.burbujas div:nth-child(7){
+    width: 50px;
+    height: 55px;
+    left: 67%;
+    animation-duration: 25s;
+}
+.burbujas div:nth-child(8){
+    width: 50px;
+    height: 55px;
+    left: 77%;
+    animation-duration: 35s;
+}
+.burbujas div:nth-child(9){
+    width: 5px;
+    height: 5px;
+    left: 87%;
+    animation-duration: 25s;
+}
+@keyframes animarburbujas{
+    0% {
+        width: 0;
+        height: 0;
+    }
+    3%{
+        width: 30px;
+        height: 30px; 
+    }
+    50%{
+        margin:20px;
+        opacity: 0.5; 
+    }
+    100%{
+        transform: rotate(100deg);
+        bottom: 100vh; 
+    }
+}
+/*----- Botón flotante---*/
+#btn-mas{
+    display: none;
+}
+.contenedor{
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+}
+.redes a, .icon-mas2{
+    display: block;
+    text-decoration: none;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1 px 10px;
+    transition:all 500ms ease;
+}
+.redes a:hover{
+    background: #d49fd4;
+    color:#0f0e0f ;
+
+}
+.redes a{
+    margin-bottom: 10px;
+    opacity: 0;
+    visibility: hidden;
+
+}
+#btn-mas:checked~.redes a{
+    margin-bottom: 25px;
+    opacity: 1;
+    visibility: visible;
+}
+#btn-mas:checked ~ .btn-mas .icon-mas2{
+    transform:rotate(137deg);
+    font-size: 25px;
+}
+/*-----FOOTER----*/
+
+footer {
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    width: 100%;
+    padding: 100px 0; 
+    color: rgb(5, 5, 5);
+    text-align: center;
+}
+.footer p {
+    margin: 0;
+    font-size: 50PX; 
+    color: azure;
+    
+}
+.icon-footer svg{
+    display: inline-block;
+    margin: 20px;
+    fill: white; /* Cambia el color del icono a blanco */
+}

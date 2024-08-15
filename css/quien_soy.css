@@ -1,0 +1,28 @@
+/*----estilos quien soy---*/
+.encabezado{
+    margin: 5%;
+    font-size: 10rem;
+    color: rgb(180, 12, 54);
+    text-shadow: 5px 4px 8px rgb(102, 99, 100);
+}
+.imge{
+    margin: 10%;
+    height: 90%;
+    border-radius: 100%;
+}
+.contenido{
+    margin: 5%;
+    font-size: 2rem;
+    text-align: justify;
+}
+.soy img{
+    width: 36rem;
+    height: 58rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0.8rem;
+    padding: 0.7rem;
+    background-color: #FB9EBB;
+    opacity: 0.9;
+    box-shadow: 3rem 3rem 2rem;
+}
