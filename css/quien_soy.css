@@ -5,17 +5,14 @@
     color: rgb(180, 12, 54);
     text-shadow: 5px 4px 8px rgb(102, 99, 100);
 }
-.imge{
-    margin: 10%;
-    height: 90%;
-    border-radius: 100%;
-}
+
 .contenido{
     margin: 5%;
     font-size: 2rem;
     text-align: justify;
 }
-.soy img{
+.imge{
+    margin-top: 23%;
     width: 36rem;
     height: 58rem;
     border-radius: 50%;
